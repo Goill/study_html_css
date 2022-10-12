@@ -1,0 +1,67 @@
+header {
+    width: 20%;
+    height: 100%;            
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 2px solid red;
+    box-sizing: border-box;
+    background: cornsilk;
+}
+
+header div.gnb {
+    width: 150px;
+    top: 60px;
+    left: 40px;
+    position: absolute;
+
+}
+header div.gnb .logo span {
+    top: 20px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+header div.gnb #divLogin {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+header div.gnb #divLogin .lg_box >a {
+    color: gray;
+}
+
+header div.gnb #divLogin .lg_box div.log_btm{
+    margin-top: 10px;
+    font-size: 10px;
+    color: gray;
+}
+
+header div.gnb nav.menu ul li{
+    margin: 40px 0;
+    font-size: 13px;
+    color: gray;
+    display: block;
+    font-weight: 700;
+}
+header div.gnb nav.menu ul li::after {
+    justify-content: center;
+    align-items: center;
+}
+header div.gnb nav.menu ul img{
+    width: 20px;
+    margin-right: 30px;
+    filter: opacity(0.5) drop-shadow(0 0 0 gray);
+
+}
+
+.container {
+    width: 80%;
+    height: 400px;
+    position: absolute;
+    margin-left: 20%;
+
+}
